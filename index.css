@@ -1,0 +1,44 @@
+@charset "UTF-8";
+@media only screen and (max-width: 600px) {
+.header{
+	display: flex; flex-direction: column; background-color: #0d0d0d; color: #fff; font-family: arial; font-size: 14px; width: auto; 
+}
+h1{
+	font-size: 30px; text-align: center;
+}
+.churchtop{
+	display: none;
+}
+.main{
+	margin: 0px;background-color:#fff7e6;width: auto; font-family: arial;
+}
+
+.logo{
+	flex: 1;text-align: center;
+}
+
+.heading{
+	flex:3;
+}
+
+#churchname{
+	font-size: 12px; font-weight: lighter;margin-top: 0px;font-style: normal; font-family: arial;padding: 5px;
+	color:#cc0000 ; background-color:#fff7e6;
+}
+.photos{
+	font-size: 24px; background-color: #ff80b3;font-style: normal; padding: 5px;margin: 0px;
+}
+
+.pics{
+	display: flex; background-color: #fff7e6;
+}
+
+.pic{
+	margin:5px;
+}
+
+.end{
+	font-size: 24px; background-color: #ff80b3;font-style: normal; padding: 5px;margin: 0px;
+}
+
+}
